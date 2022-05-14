@@ -1,4 +1,6 @@
-DC := docker compose
+DC := docker-compose
+# docker composeコマンドではコンテナ内で矢印キーが効かなかった
+# DC := docker compose
 
 up:
 	$(DC) up -d
@@ -70,7 +72,7 @@ web:
 laravel_app:
 	$(DC) exec laravel_app bash
 react_app:
-	$(DC) run --rm react_app sh 
+	$(DC) run --rm react_app bash
 cron:
 	$(DC) exec cron bash
 worker:
