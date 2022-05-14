@@ -9,7 +9,7 @@ services:
     build: ./docker/node
     volumes:
       - ./react_src:/workspace
-    command: sh -c "yarn start"
+    command: sh -c "npm install && npm run dev"
     ports:
       - "3000:3000"
 
