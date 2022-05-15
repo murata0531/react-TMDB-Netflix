@@ -2,17 +2,9 @@
 
 環境
 
-Laravel 8
-
-MySQL 8
-
 React
 
 node 16
-
-php 7.4
-
-nginx 1.20
 
 TMDB
 
