@@ -20,26 +20,8 @@ $ make init
 $ make destory
 ```
 
-各種コンテナに入る
+コンテナに入る
 
-laravel_appコンテナ：ここでlaravelやphpなどを動かしている
-```
-$ make laravel_app
-```
-
-react_appコンテナ：ここでnodeやreactなどを動かしている
-```
-$ make react_app
-```
-dbコンテナ：ここでmysqlを動かしている
-```
-$ make laravel_app
-```
-
-webコンテナ：ここでnginxを動かしている
-```
-$ make web
-```
 
 構築
 
